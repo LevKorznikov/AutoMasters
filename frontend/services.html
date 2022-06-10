@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="JQuery/jquery-3.6.0.min.js"></script>
+	<script src="JS/login.js"></script>
+	<script src="JS/entries.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+
+		<link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+	<title></title>
+</head>
+
+<body>
+	<div class="p-0 container-fluid ">
+		<div class="p-3 mb-3 bg-dark text-white" >
+			<div class="row justify-content-end" >
+				<div class="row">
+					<div class="col-3"></div>
+					<div class="col-1"></div>
+					<div class="col-5"></div>
+					<div class="col-1">
+					</div>
+					<a class="col-2 text-sm nav-link" href="register.html">Регистрация</a>
+				</div>
+				<div class="row">
+					<div class="col-3" >
+						
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5 input-group-lg" style="max-height:50px">
+						<img src="images/logo.png" class="rounded mx-auto d-block" style="max-width:500px" >
+					</div>
+					<div class="col-1"></div>
+					<div class="col-2">
+						<form>
+							<div class="mb-1">
+								<input type="text" class="form-control" id="name"
+									 placeholder="Имя">
+							</div>
+							<div class="mb-1">
+								<input type="password" class="form-control" id="pass"
+									placeholder="Пароль">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<nav class="nav nav-pills flex-column flex-sm-row">
+							<a class="fs-5 flex-sm-fill text-sm-center nav-link active" aria-current="page"
+								href="index.html">Главная</a>
+						</nav>
+					</div>
+					<div class="col-2">
+						<a class="fs-5 flex-sm-fill text-sm-center nav-link btn btn-outline-primary"
+							href="services.html">Услуги</a>
+					</div>
+					<div class="col-5">
+
+					</div>
+					<div class="col-1"></div>
+					<div class="col-1 d-grid gap-2">
+						<button type="submit" class=" fs-5 btn btn-primary" onclick="myFunction2()">Вход</button>
+					</div>
+					<div class="col-1">
+						<a class=" fs-5 nav-link btn btn-outline-primary" href="applications.html">Заявки</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container justify-content-center" style="border-radius: 3%;">
+			<div class="col pt-5 " style="max-width:1280px">
+				<h1 class="display-1 text-center"> <strong>Наши услуги</strong></h1>
+				<h3 class="text-start">Жидкости и фильтры</h3><hr>
+				<div class="row">
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_1.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена масла в двигателе</figcaption>
+							<h4>700 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_2.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена воздушного фильтра</figcaption>
+							<h4>300 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_3.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена салонного</figcaption>
+							<h4>500 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_4.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена тормозной жидкости</figcaption>
+							<h4>900 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_5.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена масла в МКПП</figcaption>
+							<h4>900 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_6.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена охлаждающей жидкости</figcaption>
+							<h4>1300 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+				</div>
+				<h3 class="text-start pt-4">Двигатель</h3><hr>
+				<div class="row">
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_7.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Диагностика ДВС и электронных систем</figcaption>
+							<h4>1400 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_8.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Прочистка доссельной заслонки</figcaption>
+							<h4>1400 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_9.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена масляного фильтра</figcaption>
+							<h4>700 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+				</div>
+				<h3 class="text-start pt-4">Тормозная система</h3><hr>
+				<div class="row">
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_10.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Диагностика тормозной системы</figcaption>
+							<h4>800 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_11.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена тормозных дисков</figcaption>
+							<h4>1500 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+					<div class="col-sm">
+						<figure class="figure">
+							<img src="images/s_12.jpg" class="figure-img img-fluid rounded" alt="...">
+							<figcaption class="figure-caption text-start fs-5">Замена тормозных шлангов</figcaption>
+							<h4>800 ₽</h4>
+							<a class="fs-5 nav-link btn text-end" href="form.html">Оформить запись</a>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="p-3 mb-2 bg-dark text-white">
+			<div class="row pt-5 mt-5 justify-content-around">
+				<div class="justify-content-center col-sm"></div>
+				<div class="justify-content-center col-sm">
+					<h6>Контакты</h6><br>
+					<p>По всем вопросам обращайтесь:</p>
+					<p>support@automasters.ru</p>
+					<p>Или звоните:</p>
+					<p>22-44-22</p>
+				</div>
+				<div class="col-sm text-center align-text-bottom">
+
+				</div>
+				<div class="justify-content-center col-sm ">
+					<h6>Услуги</h6><br>
+					<div class="row d-flex  ">
+						<div class="col">
+							<p>Жидкости и фильтры</p>
+							<p>Ходовая часть</p>
+							<p>Двигатель</p>
+							<p>Рулевое управление</p>
+						</div>
+						<div class="col">
+							<p>Тормозная система</p>
+							<p>Трансмиссия</p>
+							<p>Углы установки колес</p>
+							<p>Система кондиционирования</p>
+						</div>
+					</div>
+				</div>
+				<div class="justify-content-center col-sm"></div>
+			</div>
+			<div class="row pt-1 mt-1 justify-content-around text-center">
+				<p>AUTO-MASTERS©2022</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
