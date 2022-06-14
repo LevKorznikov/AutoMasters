@@ -1,15 +1,16 @@
 async function myFunction4(){
     let token = localStorage.getItem('token');
-    let t1 =parseJwt (token);
+    let t1 = parseJwt(token);
     let entrie = {
         user_id: t1.id,
         full_name: document.getElementById('FIO').value,
         phone_number: document.getElementById('phone').value,
         car_number: document.getElementById('number').value,
         car_brand: document.getElementById('mark').value,
-        service_type: document.getElementById('app').value
+        service_type: document.getElementById('app').value,
+        status: "0"
       };
-      console.log(JSON.stringify(entrie));
+    alert(JSON.stringify(entrie));
 
     let response = await fetch('http://localhost/auto_dungeon_masters/api/entrie.php', {
         method: 'POST',
